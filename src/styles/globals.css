@@ -1,27 +1,116 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.menuitem:hover{
+    cursor: pointer;
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+header {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.animationtxt{clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.mytitle{    font-size: xxx-large;
+  font-weight: bold;}
+.word {
+    transform: translateY(115px);
+    transition: transform .5s;
+}h1 {
+  font-size:xx-large;
+  font-weight:900;
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
   }
+  
+  .leftContent {
+    flex: 1;
+    margin: 1rem;
+  }
+  
+  .rightContent {
+    flex: 1;
+    display: flex;
+justify-content: center;    align-items: center;
+  }
+  
+  .circle {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-image: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+  }
+  .aniimg{ top: 125px!important;
+    position: absolute!important;
+    line-height: 0.5rem;
+    height: 73vh!important;}
+    .slick-next:before, .slick-prev:before {
+      font-size: 20px;
+      opacity: .75;
+      color: #000;
+  }
+  img, video {
+    max-width: 100%;
+    object-fit: fill;
+    height: revert-layer;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.slick-slide div {
+  outline: none!important;
+ }
+.custombg{
+  background-image: url('/bg.png');
 }
+ h1{
+  font-size: 2em;
+ }
+ h2{
+  font-size: 1.5em;
+ }
+ h3{font-size: 1.17em;}
+ h4{
+  font-size: 1em;
+ }
+ h5{font-size: 0.83em;}
+ h6{
+  font-size: 0.75em;
+ }
+ .videohw{
+  width: 100%;
+  height: 30rem;
+ }
+ .centerreview{
+  align-content: center;
+ }.mycake{
+  object-fit: cover!important;
+ }.lghide{
+  display: none;
+ }
+ @media only screen and (max-width: 767px) {
+  .myhide {
+    display: none!important;
+  }.lghide{
+    display: block;
+   }.circle {
+     width: 100%!important; 
+    margin-top: 4rem;
+    height: 100!important;;
+    border-radius: 50%;
+    background-image: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);}
+  .aniimg{ top: 65px!important;
+    position: absolute!important;
+    line-height: 0.5rem;
+    height: 50vh!important;}
+ 
+}
+.circles {
+  width: 100%!important; 
+ margin-top: 4rem;
+ height: 100!important;;
+ border-radius: 50%;
+ background-image: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);}
