@@ -24,20 +24,20 @@ function Occasion() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-9">
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="birthdaycake.PNG"
+                imageUrl="birthdaycake.png"
                 title="Birthday Cake"
                />
             </div>
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="weddingcake.PNG"
+                imageUrl="weddingcake.png"
                 title="Wedding Cake"
               />
             </div>
            
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="babyshowercake.PNG"
+                imageUrl="babyshowercake.png"
                 title="Baby Shower Cake"
               />
             </div>
@@ -45,19 +45,19 @@ function Occasion() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-9">
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="stepcake.PNG"
+                imageUrl="stepcake.png"
                 title="Step Cake"
                />
             </div>
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="pinatacake.PNG"
+                imageUrl="pinatacake.png"
                 title="Pinata Cake"
               />
             </div> 
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="customisedcakes.PNG"
+                imageUrl="customisedcakes.png"
                 title="Customised Cake"
               />
             </div>
@@ -65,19 +65,19 @@ function Occasion() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-9">
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="bombcake.PNG"
+                imageUrl="bombcake.png"
                 title="Bomb Cake"
                />
             </div>
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="photocake.PNG"
+                imageUrl="photocake.png"
                 title="Photo Cake"
               />
             </div> 
             <div className="w-full sm:w-auto">
               <Card
-                imageUrl="family.PNG"
+                imageUrl="family.png"
                 title="Family Cake"
               />
             </div>
