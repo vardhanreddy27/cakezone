@@ -51,7 +51,7 @@ export default function Products() {
           <Image src="/hamper.jpg" alt="cup cake cake zone"  width={500}  className="p-1"
       height={300}/>        <h3 className="p-1 font-bold">Gift Hampers</h3>            </div>
           <div>
-          <Image src="/cookies.PNG" alt="cup cake cake zone"  width={500}  className="p-1"
+          <Image src="/cookies.png" alt="cup cake cake zone"  width={500}  className="p-1"
       height={300}/>           <h3 className="p-1 font-bold">Premium Cookies</h3>         </div>
           <div>
           <Image src="/brownie.jpg" alt="cup cake cake zone"  width={500}  className="p-1"
